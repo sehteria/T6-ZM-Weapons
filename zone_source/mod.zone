@@ -34,8 +34,11 @@
 >level.ipak_read,zm_tomb
 >level.ipak_read,zm_highrise
 
-script,clientscripts/mp/zm_transit.csc
-script,maps/mp/zm_transit.gsc
+
+script,scripts/zm/_zm_weapons.csc
+script,scripts/zm/_zm_weapons.gsc
+script,scripts/zm/replaced/zm_transit.csc
+script,scripts/zm/replaced/zm_transit.gsc
 image,~~-gmtl_t6_wpn_smg_uzi_spc-rg~0879b203
 image,mtl_t6_wpn_smg_uzi_nml
 image,~mtl_t6_wpn_smg_uzi_ao-l&mtl_~84967fd4

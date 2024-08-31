@@ -1,6 +1,16 @@
-#include maps\mp_utility;
+#include maps\mp\_utility;
 #include common_scripts\utility;
-#include maps\mp\zombies_zm_utility;
+#include maps\mp\zombies\_zm_utility;
+#include maps\mp\gametypes_zm\_hud_util;
+#include maps\mp\zombies\_zm_weapons;
+#include maps\mp\zombies\_zm_weapon_locker;
+#include maps\mp\zm_transit;
+
+main()
+{
+	replaceFunc(maps\mp\zm_transit::include_weapons, scripts\zm\replaced\zm_transit::include_weapons);
+	replaceFunc(maps\mp\zm_transit::custom_add_weapons, scripts\zm\replaced\zm_transit::custom_add_weapons);
+}
 
 init()
 {
