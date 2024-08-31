@@ -14,5 +14,4 @@ Adding weapons from other maps to Tranzit
 All 6 weapons are Pack-a-Punchable and have been added to the mystery box.
 
 ## Upcoming updates
-The use of replaceFunc() in the near future instead of the entire Tranzit scripts
 Adding more weapons to Tranzit step by step
