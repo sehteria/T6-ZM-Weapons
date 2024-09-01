@@ -7,6 +7,7 @@ set MOD_NAME=zm_weapons
 --load "%GAME_FOLDER%\zone\all\zm_transit.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_prison.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_tomb.ff" ^
+--load "%GAME_FOLDER%\zone\all\zm_nuked.ff" ^
 --base-folder "%OAT_BASE%" ^
 --asset-search-path "%MOD_BASE%" ^
 --source-search-path "%MOD_BASE%\zone_source" ^

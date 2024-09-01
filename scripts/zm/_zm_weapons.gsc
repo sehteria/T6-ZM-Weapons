@@ -26,4 +26,12 @@ init()
     precacheitem( "scar_upgraded_zm" );
     precacheitem( "mg08_zm" );
     precacheitem( "mg08_upgraded_zm" );
+    precacheitem( "minigun_alcatraz_zm" );
+    precacheitem( "minigun_alcatraz_upgraded_zm" );
+    precacheitem( "evoskorpion_zm" );
+    precacheitem( "evoskorpion_upgraded_zm" );
+    precacheitem( "hk416_zm" );
+    precacheitem( "hk416_upgraded_zm" );
+    precacheitem( "ksg_zm" );
+    precacheitem( "ksg_upgraded_zm" );
 }

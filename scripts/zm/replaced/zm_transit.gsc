@@ -83,6 +83,14 @@ include_weapons()
     include_weapon( "scar_upgraded_zm", 0 );
     include_weapon( "mg08_zm" );
     include_weapon( "mg08_upgraded_zm", 0 );
+    include_weapon( "minigun_alcatraz_zm" );
+    include_weapon( "minigun_alcatraz_upgraded_zm", 0 );
+    include_weapon( "evoskorpion_zm" );
+    include_weapon( "evoskorpion_upgraded_zm", 0 );
+    include_weapon( "hk416_zm" );
+    include_weapon( "hk416_upgraded_zm", 0 );
+    include_weapon( "ksg_zm" );
+    include_weapon( "ksg_upgraded_zm", 0 );
 
     if ( is_classic() )
         include_weapon( "screecher_arms_zm", 0 );
@@ -110,6 +118,10 @@ include_weapons()
         add_limited_weapon( "knife_ballistic_no_melee_upgraded_zm", 0 );
         add_limited_weapon( "knife_ballistic_bowie_zm", 0 );
         add_limited_weapon( "knife_ballistic_bowie_upgraded_zm", 0 );
+        // Added weapons
+        add_limited_weapon( "minigun_alcatraz_zm", 1 );
+        add_limited_weapon( "minigun_alcatraz_upgraded_zm", 1 );
+
 
         if ( isdefined( level.raygun2_included ) && level.raygun2_included )
         {
@@ -183,6 +195,10 @@ custom_add_weapons()
     add_zombie_weapon( "mp40_stalker_zm", "mp40_stalker_upgraded_zm", &"ZOMBIE_WEAPON_MP40", 1300, "wpck_smg", "", undefined, 1 );
     add_zombie_weapon( "scar_zm", "scar_upgraded_zm", &"ZOMBIE_WEAPON_SCAR", 50, "wpck_rifle", "", undefined, 1 );
     add_zombie_weapon( "mg08_zm", "mg08_upgraded_zm", &"ZOMBIE_WEAPON_MG08", 50, "wpck_mg", "", undefined, 1 );
+    add_zombie_weapon( "minigun_alcatraz_zm", "minigun_alcatraz_upgraded_zm", &"ZOMBIE_WEAPON_RPD", 50, "wpck_mg", "", undefined, 1 );
+    add_zombie_weapon( "evoskorpion_zm", "evoskorpion_upgraded_zm", &"ZOMBIE_WEAPON_EVOSKORPION", 50, "wpck_smg", "", undefined, 1 );
+    add_zombie_weapon( "hk416_zm", "hk416_upgraded_zm", &"ZOMBIE_WEAPON_HK416", 100, "", "", undefined );
+    add_zombie_weapon( "ksg_zm", "ksg_upgraded_zm", &"ZOMBIE_WEAPON_KSG", 1100, "wpck_shotgun", "", undefined, 1 );
 
     if ( isdefined( level.raygun2_included ) && level.raygun2_included )
         add_zombie_weapon( "raygun_mark2_zm", "raygun_mark2_upgraded_zm", &"ZOMBIE_WEAPON_RAYGUN_MARK2", 10000, "raygun_mark2", "", undefined );

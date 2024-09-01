@@ -80,6 +80,14 @@ include_weapons()
     include_weapon( "scar_upgraded_zm", 0 );
     include_weapon( "mg08_zm" );
     include_weapon( "mg08_upgraded_zm", 0 );
+    include_weapon( "minigun_alcatraz_zm" );
+    include_weapon( "minigun_alcatraz_upgraded_zm", 0 );
+    include_weapon( "evoskorpion_zm" );
+    include_weapon( "evoskorpion_upgraded_zm", 0 );
+    include_weapon( "hk416_zm" );
+    include_weapon( "hk416_upgraded_zm", 0 );
+    include_weapon( "ksg_zm" );
+    include_weapon( "ksg_upgraded_zm", 0 );
 
     if ( gametype != "zgrief" )
     {
