@@ -1,5 +1,5 @@
 # T6ZM zm_weapons
-Adding weapons from other maps to Tranzit
+Adding weapons from other maps to Tranzit & its survival maps
 
 ### Weapons added to Tranzit:
 #### Mob of the Dead
