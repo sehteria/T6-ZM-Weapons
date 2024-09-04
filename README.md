@@ -37,7 +37,7 @@ All weapons are Pack-a-Punchable with the Tranzit Pack-a-Punch camo and have bee
 *The category "Tranzit" are weapons which were already in the files, but were disabled in the mystery box and have been enabled*
 
 ### Note
-All these weapons being added to the mystery box messed with the mystery box cycling. It wouldn't show the new weapons after a specific amount of weapons had been added, It was just a small detail. I didn't come up with a permanent solution because of lack of time and found a alternative temporary solution. I removed some weapons which were visible when the mystery box was cycling thru weapons, but won't show now. **This doesn't mean you can't get the weapons from the mysterybox**, you can. I specifically picked the weapons myself. See here below to see which weapons won't be seen when the mystery box is cycling
+All these weapons being added to the mystery box messed with the mystery box cycling. It wouldn't show the new weapons after a specific amount of weapons had been added, It was just a small detail. I didn't come up with a permanent solution because of lack of time and found an alternative temporary solution. I removed some weapons which were visible when the mystery box was cycling thru weapons, but won't show now. This doesn't mean you can't get the weapons from the mysterybox if they are not visible when the mystery box is cycling, because you can. I specifically picked the weapons myself. See here below to see which weapons won't be seen when the mystery box is cycling
 
 #### Removed weapons from mystery box cycling
 - KAP-40 - Pistol
