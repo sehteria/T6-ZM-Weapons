@@ -8,8 +8,8 @@
 
 main()
 {
-	replaceFunc(maps\mp\zm_transit::include_weapons, scripts\zm\replaced\zm_transit::include_weapons);
-	replaceFunc(maps\mp\zm_transit::custom_add_weapons, scripts\zm\replaced\zm_transit::custom_add_weapons);
+	replaceFunc(maps\mp\zm_transit::include_weapons, scripts\zm\replaced\zm_transit\zm_transit::include_weapons);
+	replaceFunc(maps\mp\zm_transit::custom_add_weapons, scripts\zm\replaced\zm_transit\zm_transit::custom_add_weapons);
 }
 
 init()
@@ -34,4 +34,18 @@ init()
     precacheitem( "hk416_upgraded_zm" );
     precacheitem( "ksg_zm" );
     precacheitem( "ksg_upgraded_zm" );
+    precacheitem( "pdw57_zm" );
+    precacheitem( "pdw57_upgraded_zm" );
+    precacheitem( "mp44_zm" );
+    precacheitem( "mp44_upgraded_zm" );
+    precacheitem( "ballista_zm" );
+    precacheitem( "ballista_upgraded_zm" );
+    precacheitem( "rnma_zm" );
+    precacheitem( "rnma_upgraded_zm" );
+    precacheitem( "an94_zm" );
+    precacheitem( "an94_upgraded_zm" );
+    precacheitem( "lsat_zm" );
+    precacheitem( "lsat_upgraded_zm" );
+    precacheitem( "svu_zm" );
+    precacheitem( "svu_upgraded_zm" );
 }

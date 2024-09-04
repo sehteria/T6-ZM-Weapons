@@ -22,17 +22,17 @@ include_weapons()
     include_weapon( "kard_upgraded_zm", 0 );
     include_weapon( "fiveseven_zm" );
     include_weapon( "fiveseven_upgraded_zm", 0 );
-    include_weapon( "beretta93r_zm", 0 );
+    include_weapon( "beretta93r_zm" ); //
     include_weapon( "beretta93r_upgraded_zm", 0 );
     include_weapon( "fivesevendw_zm" );
     include_weapon( "fivesevendw_upgraded_zm", 0 );
-    include_weapon( "ak74u_zm", 0 );
+    include_weapon( "ak74u_zm" ); //
     include_weapon( "ak74u_upgraded_zm", 0 );
     include_weapon( "mp5k_zm", 0 );
     include_weapon( "mp5k_upgraded_zm", 0 );
     include_weapon( "qcw05_zm" );
     include_weapon( "qcw05_upgraded_zm", 0 );
-    include_weapon( "870mcs_zm", 0 );
+    include_weapon( "870mcs_zm" ); //
     include_weapon( "870mcs_upgraded_zm", 0 );
     include_weapon( "rottweil72_zm", 0 );
     include_weapon( "rottweil72_upgraded_zm", 0 );
@@ -44,7 +44,7 @@ include_weapons()
     include_weapon( "m14_upgraded_zm", 0 );
     include_weapon( "saritch_zm" );
     include_weapon( "saritch_upgraded_zm", 0 );
-    include_weapon( "m16_zm", 0 );
+    include_weapon( "m16_zm" ); //
     include_weapon( "m16_gl_upgraded_zm", 0 );
     include_weapon( "xm8_zm" );
     include_weapon( "xm8_upgraded_zm", 0 );
@@ -91,6 +91,20 @@ include_weapons()
     include_weapon( "hk416_upgraded_zm", 0 );
     include_weapon( "ksg_zm" );
     include_weapon( "ksg_upgraded_zm", 0 );
+    include_weapon( "pdw57_zm" );
+    include_weapon( "pdw57_upgraded_zm", 0 );
+    include_weapon( "mp44_zm" );
+    include_weapon( "mp44_upgraded_zm", 0 );
+    include_weapon( "ballista_zm" );
+    include_weapon( "ballista_upgraded_zm", 0 );
+    include_weapon( "rnma_zm" );
+    include_weapon( "rnma_upgraded_zm", 0 );
+    include_weapon( "an94_zm" );
+    include_weapon( "an94_upgraded_zm", 0 );
+    include_weapon( "lsat_zm" );
+    include_weapon( "lsat_upgraded_zm", 0 );
+    include_weapon( "svu_zm" );
+    include_weapon( "svu_upgraded_zm", 0 );
 
     if ( is_classic() )
         include_weapon( "screecher_arms_zm", 0 );
@@ -134,6 +148,7 @@ include_weapons()
     }
 
     add_limited_weapon( "m1911_zm", 0 );
+    /* Added these weapons to Tranzit, no need for weapon locker mapping
     add_weapon_locker_mapping( "lsat_zm", "hamr_zm" );
     add_weapon_locker_mapping( "lsat_upgraded_zm", "hamr_upgraded_zm" );
     add_weapon_locker_mapping( "svu_zm", "fnfal_zm" );
@@ -144,6 +159,7 @@ include_weapons()
     add_weapon_locker_mapping( "an94_upgraded_zm", "galil_upgraded_zm" );
     add_weapon_locker_mapping( "rnma_zm", "python_zm" );
     add_weapon_locker_mapping( "rnma_upgraded_zm", "python_upgraded_zm" );
+    */
 }
 
 custom_add_weapons()
@@ -199,6 +215,13 @@ custom_add_weapons()
     add_zombie_weapon( "evoskorpion_zm", "evoskorpion_upgraded_zm", &"ZOMBIE_WEAPON_EVOSKORPION", 50, "wpck_smg", "", undefined, 1 );
     add_zombie_weapon( "hk416_zm", "hk416_upgraded_zm", &"ZOMBIE_WEAPON_HK416", 100, "", "", undefined );
     add_zombie_weapon( "ksg_zm", "ksg_upgraded_zm", &"ZOMBIE_WEAPON_KSG", 1100, "wpck_shotgun", "", undefined, 1 );
+    add_zombie_weapon( "pdw57_zm", "pdw57_upgraded_zm", &"ZOMBIE_WEAPON_PDW57", 1000, "smg", "", undefined );
+    add_zombie_weapon( "mp44_zm", "mp44_upgraded_zm", &"ZMWEAPON_MP44_WALLBUY", 1400, "wpck_rifle", "", undefined, 1 );
+    add_zombie_weapon( "ballista_zm", "ballista_upgraded_zm", &"ZMWEAPON_BALLISTA_WALLBUY", 500, "wpck_snipe", "", undefined, 1 );
+    add_zombie_weapon( "rnma_zm", "rnma_upgraded_zm", &"ZOMBIE_WEAPON_RNMA", 50, "pickup_six_shooter", "", undefined, 1 );
+    add_zombie_weapon( "an94_zm", "an94_upgraded_zm", &"ZOMBIE_WEAPON_AN94", 1200, "", "", undefined );
+    add_zombie_weapon( "lsat_zm", "lsat_upgraded_zm", &"ZOMBIE_WEAPON_LSAT", 2000, "wpck_lsat", "", undefined, 1 );
+    add_zombie_weapon( "svu_zm", "svu_upgraded_zm", &"ZOMBIE_WEAPON_SVU", 1000, "wpck_svuas", "", undefined, 1 );
 
     if ( isdefined( level.raygun2_included ) && level.raygun2_included )
         add_zombie_weapon( "raygun_mark2_zm", "raygun_mark2_upgraded_zm", &"ZOMBIE_WEAPON_RAYGUN_MARK2", 10000, "raygun_mark2", "", undefined );

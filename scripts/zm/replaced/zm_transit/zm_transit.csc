@@ -15,8 +15,10 @@ include_weapons()
     include_weapon( "python_upgraded_zm", 0 );
     include_weapon( "judge_zm" );
     include_weapon( "judge_upgraded_zm", 0 );
+    /*
     include_weapon( "kard_zm" );
     include_weapon( "kard_upgraded_zm", 0 );
+    */
     include_weapon( "fiveseven_zm" );
     include_weapon( "fiveseven_upgraded_zm", 0 );
     include_weapon( "beretta93r_zm", 0 );
@@ -27,20 +29,28 @@ include_weapons()
     include_weapon( "ak74u_upgraded_zm", 0 );
     include_weapon( "mp5k_zm", 0 );
     include_weapon( "mp5k_upgraded_zm", 0 );
+    /*
     include_weapon( "qcw05_zm" );
     include_weapon( "qcw05_upgraded_zm", 0 );
+    */
     include_weapon( "870mcs_zm", 0 );
     include_weapon( "870mcs_upgraded_zm", 0 );
     include_weapon( "rottweil72_zm", 0 );
     include_weapon( "rottweil72_upgraded_zm", 0 );
+    /*
     include_weapon( "saiga12_zm" );
     include_weapon( "saiga12_upgraded_zm", 0 );
+    */
+    /*
     include_weapon( "srm1216_zm" );
     include_weapon( "srm1216_upgraded_zm", 0 );
+    */
     include_weapon( "m14_zm", 0 );
     include_weapon( "m14_upgraded_zm", 0 );
+    /*
     include_weapon( "saritch_zm" );
     include_weapon( "saritch_upgraded_zm", 0 );
+    */
     include_weapon( "m16_zm", 0 );
     include_weapon( "m16_gl_upgraded_zm", 0 );
     include_weapon( "xm8_zm" );
@@ -63,8 +73,10 @@ include_weapons()
     include_weapon( "hamr_upgraded_zm", 0 );
     include_weapon( "usrpg_zm" );
     include_weapon( "usrpg_upgraded_zm", 0 );
+    /*
     include_weapon( "m32_zm" );
     include_weapon( "m32_upgraded_zm", 0 );
+    */
     include_weapon( "cymbal_monkey_zm" );
     include_weapon( "emp_grenade_zm", 0 );
     // Added weapons
@@ -88,6 +100,20 @@ include_weapons()
     include_weapon( "hk416_upgraded_zm", 0 );
     include_weapon( "ksg_zm" );
     include_weapon( "ksg_upgraded_zm", 0 );
+    include_weapon( "pdw57_zm" );
+    include_weapon( "pdw57_upgraded_zm", 0 );
+    include_weapon( "mp44_zm" );
+    include_weapon( "mp44_upgraded_zm", 0 );
+    include_weapon( "ballista_zm" );
+    include_weapon( "ballista_upgraded_zm", 0 );
+    include_weapon( "rnma_zm" );
+    include_weapon( "rnma_upgraded_zm", 0 );
+    include_weapon( "an94_zm" );
+    include_weapon( "an94_upgraded_zm", 0 );
+    include_weapon( "svu_zm" );
+    include_weapon( "svu_upgraded_zm", 0 );
+    include_weapon( "lsat_zm" );
+    include_weapon( "lsat_upgraded_zm", 0);
 
     if ( gametype != "zgrief" )
     {
@@ -95,8 +121,10 @@ include_weapons()
         include_weapon( "ray_gun_upgraded_zm", 0 );
         include_weapon( "jetgun_zm", 0 );
         include_weapon( "riotshield_zm", 0 );
+        /*
         include_weapon( "knife_ballistic_zm" );
         include_weapon( "knife_ballistic_upgraded_zm", 0 );
+        */
         include_weapon( "knife_ballistic_bowie_zm", 0 );
         include_weapon( "knife_ballistic_bowie_upgraded_zm", 0 );
 

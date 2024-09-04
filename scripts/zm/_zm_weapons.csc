@@ -4,5 +4,5 @@
 
 main()
 {
-    replaceFunc(clientscripts\mp\zm_transit::include_weapons, scripts\zm\replaced\zm_transit::include_weapons);
+    replaceFunc(clientscripts\mp\zm_transit::include_weapons, scripts\zm\replaced\zm_transit\zm_transit::include_weapons);
 }

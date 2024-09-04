@@ -6,6 +6,8 @@ set MOD_NAME=zm_weapons
 -v ^
 --load "%GAME_FOLDER%\zone\all\zm_transit.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_prison.ff" ^
+--load "%GAME_FOLDER%\zone\all\zm_highrise.ff" ^
+--load "%GAME_FOLDER%\zone\all\zm_buried.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_tomb.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_nuked.ff" ^
 --base-folder "%OAT_BASE%" ^
