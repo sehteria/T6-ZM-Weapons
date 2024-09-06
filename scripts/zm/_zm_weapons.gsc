@@ -48,4 +48,10 @@ init()
     precacheitem( "lsat_upgraded_zm" );
     precacheitem( "svu_zm" );
     precacheitem( "svu_upgraded_zm" );
+    precacheitem( "c96_zm" );
+    precacheitem( "c96_upgraded_zm" );
+    precacheitem( "beretta93r_extclip_zm" );
+    precacheitem( "beretta93r_extclip_upgraded_zm" );
+    precacheitem( "ak74u_extclip_zm" );
+    precacheitem( "ak74u_extclip_upgraded_zm" );
 }

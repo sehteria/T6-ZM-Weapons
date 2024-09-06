@@ -22,12 +22,16 @@ include_weapons()
     include_weapon( "kard_upgraded_zm", 0 );
     include_weapon( "fiveseven_zm" );
     include_weapon( "fiveseven_upgraded_zm", 0 );
+    /*
     include_weapon( "beretta93r_zm" ); //
     include_weapon( "beretta93r_upgraded_zm", 0 );
+    */
     include_weapon( "fivesevendw_zm" );
     include_weapon( "fivesevendw_upgraded_zm", 0 );
+    /*
     include_weapon( "ak74u_zm" ); //
     include_weapon( "ak74u_upgraded_zm", 0 );
+    */
     include_weapon( "mp5k_zm", 0 );
     include_weapon( "mp5k_upgraded_zm", 0 );
     include_weapon( "qcw05_zm" );
@@ -105,6 +109,12 @@ include_weapons()
     include_weapon( "lsat_upgraded_zm", 0 );
     include_weapon( "svu_zm" );
     include_weapon( "svu_upgraded_zm", 0 );
+    include_weapon( "c96_zm" );
+    include_weapon( "c96_upgraded_zm", 0 );
+    include_weapon( "beretta93r_extclip_zm" );
+    include_weapon( "beretta93r_extclip_upgraded_zm", 0 );
+    include_weapon( "ak74u_extclip_zm" );
+    include_weapon( "ak74u_extclip_upgraded_zm", 0 );
 
     if ( is_classic() )
         include_weapon( "screecher_arms_zm", 0 );
@@ -169,9 +179,9 @@ custom_add_weapons()
     add_zombie_weapon( "judge_zm", "judge_upgraded_zm", &"ZOMBIE_WEAPON_JUDGE", 50, "wpck_judge", "", undefined, 1 );
     add_zombie_weapon( "kard_zm", "kard_upgraded_zm", &"ZOMBIE_WEAPON_KARD", 50, "wpck_kap", "", undefined, 1 );
     add_zombie_weapon( "fiveseven_zm", "fiveseven_upgraded_zm", &"ZOMBIE_WEAPON_FIVESEVEN", 50, "wpck_57", "", undefined, 1 );
-    add_zombie_weapon( "beretta93r_zm", "beretta93r_upgraded_zm", &"ZOMBIE_WEAPON_BERETTA93r", 1000, "", "", undefined );
+    //add_zombie_weapon( "beretta93r_zm", "beretta93r_upgraded_zm", &"ZOMBIE_WEAPON_BERETTA93r", 1000, "", "", undefined );
     add_zombie_weapon( "fivesevendw_zm", "fivesevendw_upgraded_zm", &"ZOMBIE_WEAPON_FIVESEVENDW", 50, "wpck_duel57", "", undefined, 1 );
-    add_zombie_weapon( "ak74u_zm", "ak74u_upgraded_zm", &"ZOMBIE_WEAPON_AK74U", 1200, "smg", "", undefined );
+    //add_zombie_weapon( "ak74u_zm", "ak74u_upgraded_zm", &"ZOMBIE_WEAPON_AK74U", 1200, "smg", "", undefined );
     add_zombie_weapon( "mp5k_zm", "mp5k_upgraded_zm", &"ZOMBIE_WEAPON_MP5K", 1000, "smg", "", undefined );
     add_zombie_weapon( "qcw05_zm", "qcw05_upgraded_zm", &"ZOMBIE_WEAPON_QCW05", 50, "wpck_chicom", "", undefined, 1 );
     add_zombie_weapon( "870mcs_zm", "870mcs_upgraded_zm", &"ZOMBIE_WEAPON_870MCS", 1500, "shotgun", "", undefined );
@@ -222,6 +232,9 @@ custom_add_weapons()
     add_zombie_weapon( "an94_zm", "an94_upgraded_zm", &"ZOMBIE_WEAPON_AN94", 1200, "", "", undefined );
     add_zombie_weapon( "lsat_zm", "lsat_upgraded_zm", &"ZOMBIE_WEAPON_LSAT", 2000, "wpck_lsat", "", undefined, 1 );
     add_zombie_weapon( "svu_zm", "svu_upgraded_zm", &"ZOMBIE_WEAPON_SVU", 1000, "wpck_svuas", "", undefined, 1 );
+    add_zombie_weapon( "c96_zm", "c96_upgraded_zm", &"ZOMBIE_WEAPON_C96", 50, "wpck_pistol", "", undefined, 1 );
+    add_zombie_weapon( "beretta93r_extclip_zm", "beretta93r_extclip_upgraded_zm", &"ZOMBIE_WEAPON_BERETTA93r", 1000, "wpck_pistol", "", undefined, 1 );
+    add_zombie_weapon( "ak74u_extclip_zm", "ak74u_extclip_upgraded_zm", &"ZOMBIE_WEAPON_AK74U", 1200, "wpck_smg", "", undefined, 1 );
 
     if ( isdefined( level.raygun2_included ) && level.raygun2_included )
         add_zombie_weapon( "raygun_mark2_zm", "raygun_mark2_upgraded_zm", &"ZOMBIE_WEAPON_RAYGUN_MARK2", 10000, "raygun_mark2", "", undefined );

@@ -117,6 +117,10 @@
                         {
                             "baseMaterial": "mc/mtl_t6_wpn_zmb_mg08_camo",
                             "camoMaterial": "mc/mtl_weapon_camo_zombies"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_zmb_mg08_mag_camo",
+                            "camoMaterial": "mc/mtl_weapon_camo_zombies_1"
                         }
                     ],
                     "shaderConsts": [

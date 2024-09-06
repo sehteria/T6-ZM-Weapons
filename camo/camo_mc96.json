@@ -115,11 +115,11 @@
                 {
                     "materialOverrides": [
                         {
-                            "baseMaterial": "mc/mtl_t6_wpn_smg_mp40_camo1",
+                            "baseMaterial": "mc/mtl_t6_wpn_zmb_mc96_camo",
                             "camoMaterial": "mc/mtl_weapon_camo_zombies"
                         },
                         {
-                            "baseMaterial": "mc/mtl_t6_wpn_smg_mp40_camo2",
+                            "baseMaterial": "mc/mtl_t6_attach_zmb_mc96_camo",
                             "camoMaterial": "mc/mtl_weapon_camo_zombies_1"
                         }
                     ],
@@ -286,12 +286,7 @@
         {
             "materials": [
                 {
-                    "materialOverrides": [
-                        {
-                            "baseMaterial": "mc/mtl_t6_wpn_smg_mp40_camo1",
-                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2"
-                        }
-                    ],
+                    "materialOverrides": [],
                     "shaderConsts": [
                         1.0,
                         1.0,
@@ -307,12 +302,7 @@
                     "useSpecularMap": true
                 },
                 {
-                    "materialOverrides": [
-                        {
-                            "baseMaterial": "mc/mtl_t6_wpn_smg_mp40_camo2",
-                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2_alt"
-                        }
-                    ],
+                    "materialOverrides": [],
                     "shaderConsts": [
                         1.0,
                         1.0,
@@ -442,15 +432,19 @@
                 {
                     "materialOverrides": [
                         {
-                            "baseMaterial": "mc/mtl_t6_wpn_smg_mp40_camo1",
+                            "baseMaterial": "mc/mtl_t6_wpn_zmb_mc96_camo",
                             "camoMaterial": "mc/mtl_weapon_camo_3layer"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_attach_zmb_mc96_camo",
+                            "camoMaterial": "mc/mtl_weapon_camo_3layer_1"
                         }
                     ],
                     "shaderConsts": [
-                        2.7100000381469727,
-                        1.7799999713897705,
+                        1.3700000047683716,
+                        1.0,
                         0.0,
-                        0.20000000298023224,
+                        0.25,
                         0.0,
                         0.0,
                         0.0,
@@ -458,18 +452,22 @@
                     ],
                     "useColorMap": false,
                     "useNormalMap": true,
-                    "useSpecularMap": true
+                    "useSpecularMap": false
                 },
                 {
                     "materialOverrides": [
                         {
-                            "baseMaterial": "mc/mtl_t6_wpn_smg_mp40_camo2",
+                            "baseMaterial": "mc/mtl_t6_wpn_zmb_mc96_camo2",
                             "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc4_alt"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_attach_zmb_mc96_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc4_alt_1"
                         }
                     ],
                     "shaderConsts": [
-                        5.130000114440918,
-                        5.119999885559082,
+                        5.550000190734863,
+                        5.96999979019165,
                         0.0,
                         1.0,
                         0.0,

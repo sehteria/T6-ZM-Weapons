@@ -21,12 +21,16 @@ include_weapons()
     */
     include_weapon( "fiveseven_zm" );
     include_weapon( "fiveseven_upgraded_zm", 0 );
+    /*
     include_weapon( "beretta93r_zm", 0 );
     include_weapon( "beretta93r_upgraded_zm", 0 );
+    */
     include_weapon( "fivesevendw_zm" );
     include_weapon( "fivesevendw_upgraded_zm", 0 );
+    /*
     include_weapon( "ak74u_zm", 0 );
     include_weapon( "ak74u_upgraded_zm", 0 );
+    */
     include_weapon( "mp5k_zm", 0 );
     include_weapon( "mp5k_upgraded_zm", 0 );
     /*
@@ -65,8 +69,10 @@ include_weapons()
     include_weapon( "fnfal_upgraded_zm", 0 );
     include_weapon( "dsr50_zm" );
     include_weapon( "dsr50_upgraded_zm", 0 );
+    /*
     include_weapon( "barretm82_zm" );
     include_weapon( "barretm82_upgraded_zm", 0 );
+    */
     include_weapon( "rpd_zm" );
     include_weapon( "rpd_upgraded_zm", 0 );
     include_weapon( "hamr_zm" );
@@ -114,6 +120,12 @@ include_weapons()
     include_weapon( "svu_upgraded_zm", 0 );
     include_weapon( "lsat_zm" );
     include_weapon( "lsat_upgraded_zm", 0);
+    include_weapon( "c96_zm" );
+    include_weapon( "c96_upgraded_zm", 0);
+    include_weapon( "beretta93r_extclip_zm" );
+    include_weapon( "beretta93r_extclip_upgraded_zm", 0 );
+    include_weapon( "ak74u_extclip_zm" );
+    include_weapon( "ak74u_extclip_upgraded_zm", 0 );
 
     if ( gametype != "zgrief" )
     {
