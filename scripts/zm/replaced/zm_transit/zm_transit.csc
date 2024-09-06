@@ -21,16 +21,12 @@ include_weapons()
     */
     include_weapon( "fiveseven_zm" );
     include_weapon( "fiveseven_upgraded_zm", 0 );
-    /*
     include_weapon( "beretta93r_zm", 0 );
     include_weapon( "beretta93r_upgraded_zm", 0 );
-    */
     include_weapon( "fivesevendw_zm" );
     include_weapon( "fivesevendw_upgraded_zm", 0 );
-    /*
     include_weapon( "ak74u_zm", 0 );
     include_weapon( "ak74u_upgraded_zm", 0 );
-    */
     include_weapon( "mp5k_zm", 0 );
     include_weapon( "mp5k_upgraded_zm", 0 );
     /*
