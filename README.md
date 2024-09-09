@@ -157,4 +157,4 @@ I want to thank y'all for the support!
 
 
 ### Feedback
-If you have any feedback or suggestions, you can comment on the [Plutonium forum](https://forum.plutonium.pw/topic/37621/release-zm-zm_weapons-adding-map-exclusive-weapons-to-tranzit) topic of my mod
+If you have any feedback or suggestions, you can comment on the [Plutonium forum](https://forum.plutonium.pw/topic/37621/release-zm-zm_weapons-adding-all-weapons-to-all-maps) topic of my mod
