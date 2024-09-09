@@ -1,57 +1,158 @@
 # T6ZM zm_weapons
-Adding weapons from other maps to Tranzit & its survival maps
+Adding weapons from all maps to all the maps. (Tranzit, Nuketown, Die Rise, Mob of the Dead and Origins)
 
-All weapons are Pack-a-Punchable with the Tranzit Pack-a-Punch camo and have been added to the mystery box.
+All weapons are Pack-a-Punchable with the map specific Pack-a-Punch camo and have been added to the mystery box.
 
 ### Weapons added to Tranzit:
-#### Tranzit
-- M16A1 - Assault Rifle
-- AK74u Extended Clip - Submachine Gun
-- B23R Extended Clip - Pistol
-- Remington 870 MCS - Shotgun
-#### Shared (Nuketown, Die Rise, Mob of the Dead, Buried & Origins)
-- AN94 - Assault Rifle | Die Rise, Buried
-- PDW-57 - Submachine Gun | Die Rise, Buried
-- Thompson - Submachine Gun | Mob of the Dead, Origins
-- LSAT - Light Machine Gun | Nuketown, Die Rise, Buried
-- SVU-AS - Sniper | Die Rise, Buried
-#### Nuketown
-- M27 - Assault Rifle
-#### Mob of the Dead
-- AK47 - Assault Rifle
-- Uzi - Submachine Gun
-- Death Machine - Special [Limited 1]
-#### Buried
-- Remington New Model Army - Revolver
-#### Origins
-- Scar-H - Assault Rifle
-- STG44 - Assault Rifle
-- Skorpion EVO - Submachine Gun
-- MP40 Adjustable Stock - Submachine Gun
-- MG08/15 - Light Machine Gun
-- KSG - Shotgun
-- Ballista - Sniper
-- Mauser C96 - Pistol
+- AK-74u Extended Clip
+- B23R Extended Clip
+- Uzi
+- Thompson
+- AK-47
+- MP40 Stalker
+- SCAR-H
+- MG08/15
+- Death Machine [Limited 1]
+- Skorpion EVO
+- M27
+- KSG
+- PDW-57
+- STG-44
+- Ballista
+- Remington New Model Army
+- AN-94
+- SVU-AS
+- LSAT
+- Mauser C96
 
 *[Limited #] means can only be obtained by # person(s) from the mystery box*
 
-*The category "Tranzit" are weapons which were already in the files, but were disabled in the mystery box and have been enabled with a change to the B23R and AK74u when getting them from the mystery box*
+### Weapons added to Nuketown
+- AK-74u Extended Clip
+- B23R Extended Clip
+- Uzi
+- Thompson
+- AK-47
+- MP40 Stalker
+- SCAR-H
+- MG08/15
+- Death Machine [Limited 1]
+- Skorpion EVO
+- KSG
+- PDW-57
+- STG-44
+- Ballista
+- Remington New Model Army
+- AN-94
+- SVU-AS
+- Mauser C96
+
+*[Limited #] means can only be obtained by # person(s) from the mystery box*
+
+### Weapons added to Die Rise
+- AK-74u Extended Clip
+- B23R Extended Clip
+- Uzi
+- Thompson
+- AK-47
+- MP40 Stalker
+- SCAR-H
+- MG08/15
+- Death Machine [Limited 1]
+- Skorpion EVO
+- M27
+- KSG
+- STG-44
+- Ballista
+- Remington New Model Army
+- LSAT
+- Mauser C96
+
+*[Limited #] means can only be obtained by # person(s) from the mystery box*
+
+### Weapons added to Mob of the Dead
+- AK-74u Extended Clip
+- B23R Extended Clip
+- MP40 Stalker
+- SCAR-H
+- MG08/15
+- Skorpion EVO
+- M27
+- KSG
+- STG-44
+- Ballista
+- Remington New Model Army
+- AN-94
+- SVU-AS
+- Mauser C96
+- Chicom CQB
+- SMR
+- M16
+- Type 95
+- M8A1
+- M1216
+- RPD
+- HAMR
+- Python
+- KAP 45
+- War Machine
+
+### Weapons added to Buried
+- AK-74u Extended Clip
+- B23R Extended Clip
+- Uzi
+- Thompson
+- AK-47
+- MP40 Stalker
+- SCAR-H
+- MG08/15
+- Death Machine [Limited 1]
+- Skorpion EVO
+- M27
+- KSG
+- STG-44
+- Ballista
+- Mauser C96
+- Chicom CQB
+- Type 95
+- M8A1
+- RPD
+- Python
+
+*[Limited #] means can only be obtained by # person(s) from the mystery box*
+
+### Weapons added to Origins
+- Uzi
+- AK-47
+- Death Machine [Limited 1]
+- M27
+- Remington New Model Army
+- AN-94
+- LSAT
+- SVU-AS
+- M8A1
+- RPD
+- SMR
+- M16
+- Barrett M82A1
+- MP5K
+- MTAR
+- Olympia
+- S12
+- M1911
+- Judge
+- RPG
 
 ### Note
-All these weapons being added to the mystery box messed with the mystery box cycling. It wouldn't show the new weapons after a specific amount of weapons had been added, It was just a small detail. I didn't come up with a permanent solution because of lack of time and found an alternative temporary solution. I removed some weapons which were visible when the mystery box was cycling thru weapons, but are removed now for the custom weapons to be in the mystery box cycling. This doesn't mean you can't get the weapons from the mysterybox, because you can. I specifically picked the weapons myself. See here below to see which weapons won't be seen when the mystery box is cycling
-All these weapons being added to the mystery box messed with the mystery box cycling. It wouldn't show the new weapons after a specific amount of weapons had been added, It was just a small detail. I didn't come up with a permanent solution because of lack of time and found an alternative temporary solution. I removed some weapons which were visible when the mystery box was cycling thru weapons, but won't show now. This doesn't mean you can't get the weapons from the mysterybox if they are not visible when the mystery box is cycling, because you can. I specifically picked the weapons myself. See here below to see which weapons won't be seen when the mystery box is cycling
+#### AK-74u and B23R
 
-#### Removed weapons from mystery box cycling
-- KAP-40 - Pistol
-- Chicom CQB - Submachine Gun
-- S12 - Shotgun
-- M1216 - Shotgun
-- SMR - Assault Rifle
-- War Machine - Special
-- Ballistic Knife - Special
+You can buy ammo from the wallbuys of AK74u and B23R when having the AK74u Extended clip or B23R Extended clip on any map
 
 ### Upcoming updates
-I'm already working on the next update with adding support for other maps and organizing things in general, shouldn't take too long for the next update hopefully
+Better Pack-a-Punch camo coverage
+
+There won't be 'big' changes to this mod probably, mostly details and small changes, addons or bug fixes. Keep an eye on the Plutonium forum for any potential updates.
+
 I want to thank y'all for the support!
 
 

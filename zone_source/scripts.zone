@@ -1,0 +1,17 @@
+>game,T6
+>type,fastfile
+>name,scripts
+
+script,scripts/zm/zm_weapons.gsc
+script,scripts/zm/zm_transit/zm_transit.csc
+script,scripts/zm/zm_transit/zm_transit.gsc
+script,scripts/zm/zm_nuked/zm_nuked.csc
+script,scripts/zm/zm_nuked/zm_nuked.gsc
+script,scripts/zm/zm_highrise/zm_highrise.csc
+script,scripts/zm/zm_highrise/zm_highrise.gsc
+script,scripts/zm/zm_prison/zm_prison.csc
+script,scripts/zm/zm_prison/zm_prison.gsc
+script,scripts/zm/zm_buried/zm_buried.csc
+script,scripts/zm/zm_buried/zm_buried.gsc
+script,scripts/zm/zm_tomb/zm_tomb.csc
+script,scripts/zm/zm_tomb/zm_tomb.gsc

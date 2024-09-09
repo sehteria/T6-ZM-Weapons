@@ -345,6 +345,250 @@
                     "useSpecularMap": true
                 }
             ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        10.0,
+                        10.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_ar_an94_camo1",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_ar_an94_camo3",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2_1"
+                        }
+                    ],
+                    "shaderConsts": [
+                        3.390000104904175,
+                        3.809999942779541,
+                        0.0,
+                        0.800000011920929,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_ar_an94_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2_alt"
+                        }
+                    ],
+                    "shaderConsts": [
+                        10.0,
+                        10.0,
+                        0.8999999761581421,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        10.0,
+                        10.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [],
+                    "shaderConsts": [
+                        1.0,
+                        1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_ar_an94_camo1",
+                            "camoMaterial": "mc/mtl_weapon_camo_3layer"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_ar_an94_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_3layer_1"
+                        }
+                    ],
+                    "shaderConsts": [
+                        2.7100000381469727,
+                        1.7799999713897705,
+                        0.0,
+                        0.20000000298023224,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_ar_an94_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc4_alt"
+                        }
+                    ],
+                    "shaderConsts": [
+                        5.130000114440918,
+                        5.119999885559082,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
         }
     ],
     "camoSets": [

@@ -282,7 +282,16 @@
         {
             "materials": [
                 {
-                    "materialOverrides": [],
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_pistol_rnma_camo1",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_pistol_rnma_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2_alt"
+                        }
+                    ],
                     "shaderConsts": [
                         1.0,
                         1.0,
@@ -410,6 +419,52 @@
                     "shaderConsts": [
                         1.0,
                         1.0,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_pistol_rnma_camo1",
+                            "camoMaterial": "mc/mtl_weapon_camo_3layer"
+                        }
+                    ],
+                    "shaderConsts": [
+                        1.190000057220459,
+                        2.509999990463257,
+                        0.0,
+                        0.20000000298023224,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": false
+                },
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_pistol_rnma_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc4_alt"
+                        }
+                    ],
+                    "shaderConsts": [
+                        3.7100000381469727,
+                        3.5199999809265137,
                         0.0,
                         1.0,
                         0.0,

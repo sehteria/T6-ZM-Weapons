@@ -286,7 +286,16 @@
         {
             "materials": [
                 {
-                    "materialOverrides": [],
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_zmb_mc96_camo",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2"
+                        },
+                        {
+                            "baseMaterial": "mc/mtl_t6_attach_zmb_mc96_camo",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc2_alt"
+                        }
+                    ],
                     "shaderConsts": [
                         1.0,
                         1.0,

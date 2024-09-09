@@ -457,6 +457,52 @@
                     "useSpecularMap": true
                 }
             ]
+        },
+        {
+            "materials": [
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_smg_uzi_camo1",
+                            "camoMaterial": "mc/mtl_weapon_camo_3layer"
+                        }
+                    ],
+                    "shaderConsts": [
+                        2.7100000381469727,
+                        1.7799999713897705,
+                        0.0,
+                        0.20000000298023224,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                },
+                {
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_wpn_smg_uzi_camo2",
+                            "camoMaterial": "mc/mtl_weapon_camo_zmb_dlc4_alt"
+                        }
+                    ],
+                    "shaderConsts": [
+                        5.130000114440918,
+                        5.119999885559082,
+                        0.0,
+                        1.0,
+                        0.0,
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "useColorMap": false,
+                    "useNormalMap": true,
+                    "useSpecularMap": true
+                }
+            ]
         }
     ],
     "camoSets": [
