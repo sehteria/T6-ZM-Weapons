@@ -144,7 +144,7 @@ All weapons are Pack-a-Punchable with the map specific Pack-a-Punch camo and hav
 - RPG
 
 ### Note
-#### AK-74u and B23R
+#### AK-74u Extended Clip and B23R Extended Clip
 
 You can buy ammo from the wallbuys of AK74u and B23R when having the AK74u Extended clip or B23R Extended clip on any map
 
