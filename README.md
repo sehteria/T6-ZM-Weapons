@@ -1,4 +1,16 @@
-# T6ZM zm_weapons
+# Call of Duty: Black Ops 2 - zm_weapons
+### Created by sehteria
+
+[Discord](https://discord.gg/7m4GtpEu9m)
+
+[YouTube](https://www.youtube.com/@sehteria)
+
+[Twitch](https://www.twitch.tv/sehteria)
+
+[Donate](https://ko-fi.com/sehteria)
+
+### Overview
+
 Adding weapons from all maps to all the maps. (Tranzit, Nuketown, Die Rise, Mob of the Dead and Origins)
 
 All weapons are Pack-a-Punchable with the map specific Pack-a-Punch camo and have been added to the mystery box.
