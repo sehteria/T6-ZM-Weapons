@@ -1,7 +1,3 @@
->game,T6
->type,fastfile
->name,m32_zm
-
 image,~~-gmtl_t6_wpn_launch_m32_spc~f600f729
 image,mtl_t6_wpn_launch_m32_nml
 image,~mtl_t6_wpn_launch_m32_ao-l&m~72aadc7a

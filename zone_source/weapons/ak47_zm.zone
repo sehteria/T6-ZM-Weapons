@@ -1,7 +1,3 @@
->game,T6
->type,fastfile
->name,ak47_zm
-
 image,hud_ak47
 material,hud_icon_ak47
 image,~~-gmtl_t6_wpn_ar_ak47_spc-rg~9cc4d8bd
