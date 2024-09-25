@@ -2,43 +2,7 @@
 >type,fastfile
 >name,mod
 
->level.ipak_read,zm_prison
->level.ipak_read,base
->level.ipak_read,lowmip
->level.ipak_read,dlc2
->level.ipak_read,dlc3
->level.ipak_read,patch_mp
->level.ipak_read,code_post_gfx_zm
->level.ipak_read,common_zm
->level.ipak_read,so_zclassic_zm_transit
->level.ipak_read,zm_transit
->level.ipak_read,zm_highrise
->level.ipak_read,zm_tomb_patch
->level.ipak_read,zm_tomb
->level.ipak_read,weapons
->level.ipak_read,code_post_gfx
->level.ipak_read,common
->level.ipak_read,common_mp
->level.ipak_read,zm_highrise
->level.ipak_read,zm
->level.ipak_read,dlczm2
->level.ipak_read,dlczm4
->level.ipak_read,so_zencounter_zm_prison
->level.ipak_read,so_zclassic_zm_prison
->level.ipak_read,zm_prison_patch
->level.ipak_read,so_zencounter_zm_prison
->level.ipak_read,so_zclassic_zm_prison
->level.ipak_read,zm_prison_patch
->level.ipak_read,zm_prison
->level.ipak_read,zm_tomb_patch
->level.ipak_read,zm_tomb
->level.ipak_read,zm_highrise
-
 include,scripts
-
-include,weapons/dependencies/attachment
-include,weapons/dependencies/camo
-include,weapons/dependencies/muzzleflashes
 
 include,weapons/ak47_zm
 include,weapons/ak74u_extclip_zm
@@ -79,5 +43,9 @@ include,weapons/type95_zm
 include,weapons/usrpg_zm
 include,weapons/uzi_zm
 include,weapons/xm8_zm
+
+include,weapons/dependencies/attachment
+include,weapons/dependencies/camo
+include,weapons/dependencies/muzzleflashes
 
 soundbank,mod.all

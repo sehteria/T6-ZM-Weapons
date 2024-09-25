@@ -19,6 +19,8 @@ if %ERRORLEVEL% NEQ 0 pause
 
 set err=%ERRORLEVEL%
 
+pwsh -Command "Compress-Archive -Force -Path attachmentunique,scripts,weapons -DestinationPath mod.iwd"
+
 if %err% EQU 0 (
 XCOPY "%MOD_BASE%\zone\mod.ff" "%LOCALAPPDATA%\Plutonium\storage\t6\mods\%MOD_NAME%\mod.ff" /Y
 XCOPY "%MOD_BASE%\mod.iwd" "%LOCALAPPDATA%\Plutonium\storage\t6\mods\%MOD_NAME%\mod.iwd" /Y

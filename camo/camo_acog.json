@@ -137,7 +137,12 @@
         {
             "materials": [
                 {
-                    "materialOverrides": [],
+                    "materialOverrides": [
+                        {
+                            "baseMaterial": "mc/mtl_t6_attach_optic_acog",
+                            "camoMaterial": "mc/mtl_weapon_camo_zombies"
+                        }
+                    ],
                     "shaderConsts": [
                         3.0,
                         3.0,
