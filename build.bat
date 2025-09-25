@@ -4,6 +4,7 @@ set MOD_BASE=%cd%
 set MOD_NAME=zm_weapons
 "%OAT_BASE%\linker.exe" ^
 -v ^
+--load "%GAME_FOLDER%\zone\all\common_zm.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_transit.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_prison.ff" ^
 --load "%GAME_FOLDER%\zone\all\zm_highrise.ff" ^
